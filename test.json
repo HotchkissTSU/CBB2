@@ -1,0 +1,59 @@
+
+{
+	"base" : {},
+	"name" : "Example project",
+	"targets" : 
+	{
+		"TAR1" : 
+		{
+			"comp_params" : "-m64",
+			"compiler" : "g++",
+			"dynamic" : [ "dynamic" ],
+			"from_obj" : 0,
+			"include" : [ "include" ],
+			"link_dynamic" : [ "example_libfile.lib" ],
+			"link_params" : "-m64",
+			"link_static" : [ "example_lib" ],
+			"obj" : "obj",
+			"out" : "bin",
+			"out_libfile" : "lib",
+			"src" : [ "src\\main.cpp" ],
+			"static" : [ "static" ],
+			"type" : "EXE"
+		},
+		"TAR2" : 
+		{
+			"comp_params" : "-m64",
+			"compiler" : "g++",
+			"dynamic" : [ "dynamic" ],
+			"from_obj" : 0,
+			"include" : [ "include" ],
+			"link_dynamic" : [ "example_libfile.lib" ],
+			"link_params" : "-m64",
+			"link_static" : [ "example_lib" ],
+			"obj" : "obj",
+			"out" : "bin",
+			"out_libfile" : "lib",
+			"src" : [ "src\\main.cpp" ],
+			"static" : [ "static" ],
+			"type" : "EXE"
+		},
+		"TAR3" : 
+		{
+			"comp_params" : "-m64",
+			"compiler" : "g++",
+			"dynamic" : [ "dynamic" ],
+			"from_obj" : 0,
+			"include" : [ "include" ],
+			"link_dynamic" : [ "example_libfile.lib" ],
+			"link_params" : "-m64",
+			"link_static" : [ "example_lib" ],
+			"obj" : "obj",
+			"out" : "bin",
+			"out_libfile" : "lib",
+			"src" : [ "src\\main.cpp" ],
+			"static" : [ "static" ],
+			"type" : "EXE"
+		}
+	}
+}

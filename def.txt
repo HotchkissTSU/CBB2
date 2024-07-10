@@ -1,0 +1,32 @@
+{
+	"name":"Example project",
+	
+	"base":{
+		
+	},
+	
+	"targets":{
+		"example_1":{
+			"compiler":"g++",
+			
+			"from_obj":0,
+			"type":"EXE",
+			
+			"include":["include"],
+			"static":["static"],
+			"dynamic":["lib"],
+			
+			"out":"bin",
+			"out_libfile":"lib",
+			
+			"src":["src\\main.cpp"],
+			"obj":"obj",
+			
+			"link_static":[],
+			"link_dynamic":[],
+			
+			"comp_params":"-std=c++17",
+			"link_params":"-static-libstdc++"
+		}
+	}
+}
